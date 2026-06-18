@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blessed Furnished Apartments — Premium furnished apartment rentals in Summit, Addis Ababa, Ethiopia. Your comfort is our priority.">
+    <title>Blessed Apartments — Premium Furnished Rentals | Addis Ababa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================================
+    1. NAVIGATION
+    ============================================================ -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="#home" class="logo">
+                <img src="logo.png" alt="Blessed Apartments Logo" width="38" height="38">
+                <div class="logo-text">
+                    <span class="logo-mark">BLESSED</span>
+                    <span class="logo-sub">Furnished Apartment Rental</span>
+                </div>
+            </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#home" class="nav-link is-active">Home</a>
+                <a href="#rooms" class="nav-link">Apartments</a>
+                <a href="#amenities" class="nav-link">Amenities</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#location" class="nav-link">Location</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <a href="#book" class="btn btn-primary nav-cta">Book Your Stay</a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    2. HERO SLIDER
+    ============================================================ -->
+    <section class="hero" id="home" aria-label="Image slideshow">
+        <div class="slide active">
+            <img src="first.jpg" alt="Luxury furnished apartment interior">
+        </div>
+        <div class="slide">
+            <img src="second.jpg" alt="Elegant apartment living room">
+        </div>
+        <div class="slide">
+            <img src="third.jpg" alt="Modern apartment bedroom">
+        </div>
+        <div class="slide">
+            <img src="fourth.jpg" alt="Premium apartment with city view">
+        </div>
+
+        <div class="hero-logo-overlay">
+            <img src="logo.png" alt="Blessed Apartments">
+        </div>
+
+        <div class="slide-indicators">
+            <div class="indicator active"><span></span></div>
+            <div class="indicator"><span></span></div>
+            <div class="indicator"><span></span></div>
+            <div class="indicator"><span></span></div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    3. SEARCH / PROPERTY FILTER (Floating Card)
+    ============================================================ -->
+    <section class="search-section">
+        <div class="search-card reveal">
+            <div class="search-card-inner">
+                <input type="text" placeholder="Enter keyword or location...">
+                <select>
+                    <option value="">Property Type</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="villa">Villa</option>
+                    <option value="studio">Studio</option>
+                </select>
+                <select>
+                    <option value="">Rooms</option>
+                    <option value="1">1 Room</option>
+                    <option value="2">2 Rooms</option>
+                    <option value="3">3 Rooms</option>
+                </select>
+                <select>
+                    <option value="">Budget</option>
+                    <option value="economy">Economy</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                </select>
+                <button class="btn btn-primary search-btn">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    4. FEATURES / AMENITIES
+    ============================================================ -->
+    <section class="features" id="amenities">
+        <div class="features-inner">
+            <div class="feature reveal">
+                <div class="feature-icon"><i class="fa-solid fa-building"></i></div>
+                <h3>Fully Furnished</h3>
+                <p>Move-in ready units with elegant furniture and modern decor.</p>
+            </div>
+            <div class="feature reveal">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>24/7 Security</h3>
+                <p>Round-the-clock security for your complete peace of mind.</p>
+            </div>
+            <div class="feature reveal">
+                <div class="feature-icon"><i class="fa-solid fa-kitchen-set"></i></div>
+                <h3>Equipped Kitchen</h3>
+                <p>Full kitchen with modern appliances — cook like at home.</p>
+            </div>
+            <div class="feature reveal">
+                <div class="feature-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <h3>Flexible Terms</h3>
+                <p>Short-term, long-term, and extended stays — tailored to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    5. PREMIUM ROOMS
+    ============================================================ -->
+    <section class="rooms section-lg" id="rooms">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="overline">Accommodations</span>
+                <h2>Premium Rooms</h2>
+                <div class="divider"></div>
+                <p class="subtitle">Each room is thoughtfully curated to provide an exceptional stay experience.</p>
+            </div>
+
+            <!-- Room 1: Luxury Super Delux -->
+            <div class="room-row reveal">
+                <div class="room-image">
+                    <span class="image-badge premium">Premium</span>
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=800&fit=crop" alt="Luxury Super Delux Room" loading="lazy">
+                </div>
+                <div class="room-content">
+                    <span class="category">Premium Room</span>
+                    <h2>Luxury Super Delux</h2>
+                    <p class="description">Enjoy luxurious accommodation with elegant interiors and premium facilities designed for your comfort.</p>
+                    <div class="price">$299 <span>/ NIGHT</span></div>
+                    <div class="room-features">
+                        <div class="room-feature-item available">
+                            <i class="fa-solid fa-circle-check"></i> <strong>Status</strong>&nbsp;Available
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-user"></i> <strong>Persons</strong>&nbsp;2
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-water"></i> <strong>View</strong>&nbsp;Sea View
+                        </div>
+                    </div>
+                    <div class="room-buttons">
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-ghost">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 2: Simple Family Room (Reverse) -->
+            <div class="room-row reverse reveal">
+                <div class="room-image">
+                    <span class="image-badge">Family</span>
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=800&fit=crop" alt="Simple Family Room" loading="lazy">
+                </div>
+                <div class="room-content">
+                    <span class="category">Family Room</span>
+                    <h2>Simple Family Room</h2>
+                    <p class="description">Spacious family accommodation with modern furniture and comfortable bedding for a relaxing stay.</p>
+                    <div class="price">$399 <span>/ NIGHT</span></div>
+                    <div class="room-features">
+                        <div class="room-feature-item available">
+                            <i class="fa-solid fa-circle-check"></i> <strong>Status</strong>&nbsp;Available
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-users"></i> <strong>Persons</strong>&nbsp;4
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-city"></i> <strong>View</strong>&nbsp;City View
+                        </div>
+                    </div>
+                    <div class="room-buttons">
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-ghost">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 3: Luxury Family Delux -->
+            <div class="room-row reveal">
+                <div class="room-image">
+                    <span class="image-badge premium">Premium</span>
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=800&fit=crop" alt="Luxury Family Delux" loading="lazy">
+                </div>
+                <div class="room-content">
+                    <span class="category">Premium Room</span>
+                    <h2>Luxury Family Delux</h2>
+                    <p class="description">Premium family suite featuring luxurious furniture, elegant decoration and modern amenities.</p>
+                    <div class="price">$499 <span>/ NIGHT</span></div>
+                    <div class="room-features">
+                        <div class="room-feature-item available">
+                            <i class="fa-solid fa-circle-check"></i> <strong>Status</strong>&nbsp;Available
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-users"></i> <strong>Persons</strong>&nbsp;5
+                        </div>
+                        <div class="room-feature-item">
+                            <i class="fa-solid fa-tree"></i> <strong>View</strong>&nbsp;Garden View
+                        </div>
+                    </div>
+                    <div class="room-buttons">
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                        <a href="#" class="btn btn-ghost">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    6. CTA BANNER
+    ============================================================ -->
+    <section class="cta-banner" id="book">
+        <div class="container">
+            <div class="cta-wrapper reveal">
+                <h2>Ready to Find Your Perfect Apartment?</h2>
+                <p>Book your stay today and experience comfortable living in Summit, Addis Ababa.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+251911234567" class="btn btn-accent">
+                        <i class="fas fa-phone"></i> Call Us Now
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Send Inquiry <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    7. STATS
+    ============================================================ -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Guests</div>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon"><i class="fas fa-building"></i></div>
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Furnished Units</div>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years of Service</div>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    8. TESTIMONIALS
+    ============================================================ -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="overline">Testimonials</span>
+                <h2>What Our Guests Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Perfect location in Summit! The apartment was spotless, fully equipped, and the staff was incredibly helpful. Made my business trip to Addis so much easier."</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah Mitchell</h4>
+                        <span>Business Traveler — USA</span>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We stayed for 3 months while relocating to Ethiopia. The two-bedroom apartment was perfect for our family. Great value and excellent service!"</p>
+                    <div class="testimonial-author">
+                        <h4>James &amp; Emma Thompson</h4>
+                        <span>Long-term Residents — UK</span>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Best furnished apartment rental in Addis Ababa! Modern, clean, secure, and the internet speed was excellent for remote work. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <h4>Michael Chen</h4>
+                        <span>Digital Nomad — Canada</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    9. LOCATION
+    ============================================================ -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="overline">Find Us</span>
+                <h2>Our Location</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="location-card reveal">
+                <div class="location-icon">
+                    <i class="fas fa-map-pin"></i>
+                </div>
+                <h3 class="location-address">Summit Area, Addis Ababa</h3>
+                <p class="location-city">Ethiopia</p>
+                <a href="https://maps.app.goo.gl/RuBzRpmvhNdKYU738?g_st=atm" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fas fa-map-marked-alt"></i> View on Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    10. FOOTER
+    ============================================================ -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- About Column -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Blessed Apartments Logo" width="32" height="32">
+                        <h3>BLESSED APARTMENTS</h3>
+                    </div>
+                    <p>Premium furnished apartment rentals in Summit, Addis Ababa, Ethiopia. Your comfort is our priority.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Summit Area, Addis Ababa, Ethiopia</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+251911234567">+251 911 234 567</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@blessedapartments.et">info@blessedapartments.et</a></p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Apartments</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#testimonials">Guest Reviews</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Apartments Column -->
+                <div class="footer-col">
+                    <h4>Apartments</h4>
+                    <ul>
+                        <li><a href="#">One-Bedroom Units</a></li>
+                        <li><a href="#">Two-Bedroom Units</a></li>
+                        <li><a href="#">Three-Bedroom Units</a></li>
+                        <li><a href="#">Short-Term Rental</a></li>
+                        <li><a href="#">Long-Term Rental</a></li>
+                        <li><a href="#">Corporate Housing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Blessed Furnished Apartment Rental. All Rights Reserved. &nbsp;|&nbsp; Summit, Addis Ababa, Ethiopia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+    SCRIPTS
+    ============================================================ -->
+    <script src="script.js"></script>
+</body>
+</html>

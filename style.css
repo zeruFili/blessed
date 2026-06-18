@@ -910,7 +910,7 @@ input, select, textarea {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('first.jpg') center/cover no-repeat fixed;
+    background: url('asset/first.jpg') center/cover no-repeat fixed;
     opacity: 0.12;
     z-index: 0;
 }

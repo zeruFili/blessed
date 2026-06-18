@@ -615,7 +615,6 @@ input, select, textarea {
     flex-wrap: wrap;
 }
 
-.search-card-inner input,
 .search-card-inner select {
     flex: 1;
     min-width: 130px;
@@ -630,15 +629,10 @@ input, select, textarea {
     transition: var(--transition);
 }
 
-.search-card-inner input:focus,
 .search-card-inner select:focus {
     border-color: var(--color-camel-dark);
     background: var(--color-white);
     box-shadow: 0 0 0 3px rgba(194,160,107,0.12);
-}
-
-.search-card-inner input::placeholder {
-    color: var(--color-ink-muted);
 }
 
 .search-card-inner select {
@@ -1313,7 +1307,6 @@ input, select, textarea {
         gap: 0.5rem;
     }
 
-    .search-card-inner input,
     .search-card-inner select {
         flex: 1 1 calc(50% - 0.5rem);
         min-width: 140px;
@@ -1410,8 +1403,12 @@ input, select, textarea {
         padding: 1.25rem 1.25rem;
     }
 
-    .search-card-inner input,
     .search-card-inner select {
+        flex: 1 1 calc(50% - 0.5rem);
+        min-width: 120px;
+    }
+
+    .search-card .search-btn {
         flex: 1 1 100%;
     }
 
@@ -1525,7 +1522,6 @@ input, select, textarea {
         border-radius: var(--radius-md);
     }
 
-    .search-card-inner input,
     .search-card-inner select,
     .search-card .search-btn {
         height: 46px;
